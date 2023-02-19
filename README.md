@@ -4,3 +4,5 @@
 - written for web and windows
 - responsive and beautiful UI
 - dark theme
+
+<img src="https://github.com/xzghx/work-management/blob/master/record.gif" width="80" height="80" />
