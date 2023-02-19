@@ -5,4 +5,4 @@
 - responsive and beautiful UI
 - dark theme
 
-<img src="https://github.com/xzghx/work-management/blob/master/record.gif" width="80" height="80" />
+<img src="https://github.com/xzghx/work-management/blob/master/record.gif" width="800" height="800" />
