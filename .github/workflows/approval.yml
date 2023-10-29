@@ -1,0 +1,15 @@
+name: approval-workflow.yml
+on: [pull_request_review]
+jobs:
+  labelWhenApproved:
+    name: Label when approved
+    runs-on: ubuntu-latest
+    steps: 
+    - name: label-it
+      uses: pullreminders/label-when-approved-action@master
+      env:
+        APPROVALS: "1"
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ADD_LABEL: "Approved"
+        REMOVE_LABEL: "awaiting%20review"
+  
